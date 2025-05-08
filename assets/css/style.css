@@ -96,7 +96,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #3d5a80;
 }
 header .navbar ul {
   list-style: none;
@@ -212,8 +212,8 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
-  margin-left: 6rem;
+  width: 60%;
+  margin-left: 2rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -224,12 +224,12 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #3d5a80;
 }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #98c1d9;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -1223,3 +1223,19 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #fceaff 0%, #e0f7ff 50%, #fff4e6 100%);
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+canvas.particles-js-canvas-el {
+  filter: drop-shadow(0 0 6px #ffffff) drop-shadow(0 0 10px #ffd6a5);
+}
+
